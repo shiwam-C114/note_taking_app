@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/index.css">
+    <title>Note Taking App</title>
+</head>
+<body>
+    <nav>
+        <h1>Note Taking App</h1>
+    </nav>
+    <main>
+        <div class="note-taking-area">
+            <input type="text" name="note-heading" id="note-heading" size="50" placeholder="heading">
+            <br>
+            <textarea name="note-body" id="note-body" cols="50" rows="20" placeholder="write your notes here"></textarea>
+            <br>
+            <button onclick="saveNotes()" id="save-notes">save notes</button>
+        </div>
+        <div class="display"></div>
+    </main>
+    <script src="./src/index.js"></script>
+</body>
+</html>

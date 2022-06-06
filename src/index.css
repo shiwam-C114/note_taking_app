@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+nav{
+    padding: 1%;
+    text-align: center;
+}
+main{
+    display: flex;
+}
+.note-taking-area{
+    flex: 4;
+    margin: 1%;
+    border: 2px red solid;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+#note-heading{
+    border: 2px gold solid;
+    margin: 1%;
+    padding: 1%;
+}
+#note-body{
+    border: 2px rgb(32, 218, 144) solid;
+    margin: 1%;
+    padding: 1%;
+}
+#save-notes{
+    border: 2px rgb(47, 71, 255) solid;
+    margin: 1%;
+}
+.notes-card{
+    border: 2px black dashed;
+    margin: 1%;
+    padding: 1%;
+}
+.display{
+    flex: 3;
+    margin: 1%;
+    border: 2px rebeccapurple solid;
+    border-radius: 5px;
+    text-align: center;
+}
