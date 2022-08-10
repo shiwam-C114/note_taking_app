@@ -24,7 +24,7 @@ function showNotes() {
         H.setAttribute("id","note-heading")
         let B = document.createElement('p')
         B.setAttribute("id","note-body")
-        srNo.innerText =`notes id:${i+1}` 
+        srNo.innerText =`notes id:${i+1 }` 
         H.innerText = e.heading
         B.innerText = e.note
         card.append(srNo,H,B)
